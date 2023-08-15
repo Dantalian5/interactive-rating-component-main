@@ -1,0 +1,56 @@
+.heading {
+	font-size: 1.5rem;
+}
+.paragraph {
+	font-size: 0.875rem;
+}
+.text-normal {
+	font-weight: 400;
+	line-height: 1.5;
+}
+.text-bold {
+	font-weight: 700;
+	line-height: 1.2;
+}
+.rate-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&__input {
+		position: relative;
+		width: calc((100% + 3rem) * 0.128);
+	}
+	&__radio {
+		visibility: hidden;
+		position: absolute;
+	}
+	&__item {
+		width: 100%;
+		min-width: 40px;
+		max-width: 3.1875rem;
+		aspect-ratio: 1;
+		border-radius: 50%;
+		background: #262e38;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #7c8798;
+		& > span {
+			font-size: 0.875rem;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 1;
+		}
+	}
+}
+@media (min-width: 50rem) {
+	.heading {
+		font-size: 1.75rem;
+	}
+	.paragraph {
+		font-size: 0.9375rem;
+	}
+	.text-normal {
+		line-height: 1.6;
+	}
+}

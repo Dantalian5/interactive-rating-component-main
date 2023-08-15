@@ -1,0 +1,43 @@
+@media (hover: hover) {
+	.container__submit {
+		&:hover {
+			background: #ffffff;
+			color: #fc7614;
+		}
+	}
+	.rate-wrapper__item:hover {
+		background: #fc7614;
+		color: #ffffff;
+	}
+}
+.rate-wrapper {
+	&__radio:checked + &__item {
+		background: #7c8798;
+		color: #ffffff;
+	}
+}
+.submition-container.active {
+	transform: translate(0%, 0%);
+	animation: thankyou 2s linear 0s 1 alternate both;
+}
+
+@keyframes thankyou {
+	0% {
+		transform: translate(0%, -100%);
+	}
+	20% {
+		transform: translate(0%, 0%);
+	}
+	40% {
+		transform: translate(0%, -25%);
+	}
+	60% {
+		transform: translate(0%, 0%);
+	}
+	80% {
+		transform: translate(0%, -10%);
+	}
+	100% {
+		transform: translate(0%, 0%);
+	}
+}
