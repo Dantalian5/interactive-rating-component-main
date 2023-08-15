@@ -18,7 +18,7 @@
 }
 .submition-container.active {
 	transform: translate(0%, 0%);
-	animation: thankyou 2s linear 0s 1 alternate both;
+	animation: thankyou 1.5s linear 0s 1 alternate both;
 }
 
 @keyframes thankyou {
