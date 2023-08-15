@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Live site (Vercel)](https://interactive-rating-component-main-pearl.vercel.app/)
+- Live Site URL: [Github repo](https://github.com/Dantalian5/interactive-rating-component-main.git)
 
 ## My process
 
