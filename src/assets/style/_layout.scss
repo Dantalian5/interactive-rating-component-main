@@ -74,7 +74,10 @@
 	inset: 0;
 	transform: translate(0%, -100%);
 }
-@media (min-width: 50rem) {
+@media (min-width: 30rem) {
+	.main-container {
+		border-radius: 1.875rem;
+	}
 	.container__submit {
 		letter-spacing: 0.125rem;
 	}
